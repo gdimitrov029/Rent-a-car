@@ -1,0 +1,108 @@
+body {
+  background-image: url('image1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.parent-container {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+.search-container-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#searchInput {
+  width: 200px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#carList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: white;
+}
+
+.car img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.car h2 {
+  margin-top: 0;
+}
+
+.car p {
+  margin: 5px 0;
+}
+
+.rented-car {
+  border: 2px solid #ff0000;
+  background-color: #ffe6e6;
+}
+
+.rented {
+  background-color: #ffc0cb;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
